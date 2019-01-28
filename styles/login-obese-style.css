@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Century GOthic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    color: rgb(0, 255, 0);
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 20px;
+    transition: 0.7s;
+    width: 80%;
+    margin: auto;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    border-radius: 3px;
+    border: 1px solid green;
+    outline: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+    box-shadow:inset 0px 0px 5px 2px rgb(0, 255, 0, 0.2);
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 5px 2px rgb(0, 255, 0);
+}
+
+label{
+    display: block;
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+form{
+    width: 50%;
+    margin: 10% auto;
+    border: 0px solid red;
+    box-shadow: 1px 2px 5px 3px rgb(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    border-radius: 14px 14px 6px 6px;
+}
+
+div{
+    padding:24px;
+}
+
+div#login_header{
+    background: linear-gradient(to right, rgb(0, 255, 76), rgb(0, 255, 191));
+    color: #fff;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0, 0.4);
+    border-radius: 14px 14px 0px 0px;
+}
+
+@media only screen and (max-width: 360px), only screen and (max-width: 412px){
+    form{
+        width: 90%;
+    }
+}

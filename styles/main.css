@@ -41,9 +41,23 @@ section#top-bar{
     height: 50px;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
     position: fixed;
-     z-index: 100;
+    z-index: 100;
 }
 
+sup{
+    display: inline-block;
+    text-shadow: none;
+    text-align: center;
+    padding: 2px 2px 2px 4px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 10px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+/*application*/
 label{
     display: block;
     color: rgb(83, 83, 83);
@@ -71,19 +85,23 @@ label{
 }
 
 div#name h1{
-    font-family: 'Century Gothic', Agency fb, monospace, Rockwell;
+    font-family: 'Century Gothic', 'Agency fb', monospace, Rockwell;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #fff;
-    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
     font-size: 30px;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+    border: 0px solid red;
 }
 
 div#name h6{
     color: #fff;
     font-size: 12px;
     padding-left: 5px;
-    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 100;
 }
 
 form div{
